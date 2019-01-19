@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Project2015To2017</id>
+    <version>3.0.10</version>
+    <authors>hvanbakel et. al.</authors>
+    <owners>hvanbakel et. al.</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/hvanbakel/CsprojToVs2017/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/hvanbakel/CsprojToVs2017</projectUrl>
+    <description>Tool for converting a MSBuild project file to VS2017 format and beyond.</description>
+    <copyright>Copyright Hans van Bakel</copyright>
+    <tags>dotnet csproj fsproj vbproj msbuild conversion vs2015 vs14 vs15 vs2017</tags>
+    <repository type="git" url="https://github.com/hvanbakel/CsprojToVs2017" commit="0f82c262c122e5b3be004413d1ec1ee9d4d2f703" />
+    <dependencies>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
